@@ -38,7 +38,7 @@
   height: 65px;
 }
 
-.user-component__avatar .user-component__avatar--xl {
+.user-component__avatar--xl img {
   border-radius: 50%;
 }
 
