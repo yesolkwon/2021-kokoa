@@ -38,6 +38,10 @@
   height: 65px;
 }
 
+.user-component__avatar .user-component__avatar--xl {
+  border-radius: 50%;
+}
+
 .user-component__avatar--sm {
   width: 40px;
   height: 40px;
