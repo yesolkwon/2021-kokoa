@@ -63,6 +63,17 @@
   animation: dancingsearch 1s linear infinite;
 }
 
+@keyframes dancingcomment {
+  0% {
+    background-color: #06c3d1;
+    border: 3px solid #666;
+  }
+  100% {
+    background-color: #270da6;
+    border: 3px solid #666;
+  }
+}
+
 .screen-header__icon .fa-comment-dots:hover {
-  animation: 3s linear 1s infinite running slidein;
+  animation: dacingcomment 1s linear infinite;
 }
