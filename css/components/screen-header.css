@@ -30,11 +30,15 @@
 }
 
 @keyframes dancingmusic {
-  from {
+  0% {
     transform: none;
   }
-  to {
-    transform: scaleY(2);
+  50% {
+    transform: scaleY(1.5);
+  }
+
+  100% {
+    transform: none;
   }
 }
 
@@ -43,14 +47,18 @@
 }
 
 @keyframes dancingsearch {
-  from {
+  0% {
     transform: none;
   }
-  to {
-    transform: scaleY(2);
+  50% {
+    transform: scaleY(1.5);
+  }
+
+  100% {
+    transform: none;
   }
 }
 
-.screen-header__icon .fa-serch:hover {
+.screen-header__icon .fa-search:hover {
   animation: dancingsearch 1s linear infinite;
 }
