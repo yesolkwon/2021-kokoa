@@ -5,8 +5,6 @@
   margin-top: 35px;
   padding: var(--horizontal-space);
   margin-bottom: 10px;
-  position: fixed;
-  background-color: white;
 }
 
 .screen-header__title {
