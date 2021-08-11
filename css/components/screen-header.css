@@ -65,12 +65,10 @@
 
 @keyframes dancingcomment {
   0% {
-    background-color: #06c3d1;
-    border: 3px solid #666;
+    color: black;
   }
   100% {
-    background-color: #270da6;
-    border: 3px solid #666;
+    color: white;
   }
 }
 
