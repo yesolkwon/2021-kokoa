@@ -62,3 +62,20 @@
 .screen-header__icon .fa-search:hover {
   animation: dancingsearch 1s linear infinite;
 }
+
+@keyframes dancingsearch {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scaleZ();
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.screen-header__icon .fa-comment-dots:hover {
+  animation: 3s linear 1s infinite running slidein;
+}
